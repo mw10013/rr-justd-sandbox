@@ -1,0 +1,8 @@
+{
+  "$schema": "https://getjustd.com",
+  "ui": "app/lib/components/ui",
+  "classes": "app/lib/utils",
+  "theme": "Default",
+  "css": "app/app.css",
+  "alias": "~"
+}

@@ -9,5 +9,5 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Home() {
-  return <div className="p-6">JustD</div>;
+  return <div className="p-6 text-purple-600 font-semibold text-lg">JustD</div>;
 }
