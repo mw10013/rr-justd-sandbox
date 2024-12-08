@@ -1,5 +1,5 @@
 import type { Route } from "./+types/home";
-import { Welcome } from "../welcome/welcome";
+import { Button } from "~/lib/components/ui";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -9,5 +9,10 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Home() {
-  return <div className="p-6 text-purple-600 font-semibold text-lg">JustD</div>;
+  return (
+    <div className="p-6 text-purple-600 font-semibold text-lg flex flex-col space-y-4">
+      JustD
+      <Button>JustD Button</Button>
+    </div>
+  );
 }
